@@ -1,7 +1,7 @@
 import pytest
 from fastapi.testclient import TestClient
 
-from main import app, students, Student
+from src.main import app, students, Student
 
 client = TestClient(app)
 
